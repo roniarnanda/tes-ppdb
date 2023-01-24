@@ -112,17 +112,6 @@ body {
   transform: scaleX(-1);
 }
 
-/* .hero::after {
-  content: '';
-  display: block;
-  position: absolute;
-  width: 100%;
-  height: 63.5%;
-  bottom: 0;
-  background: url(../svg/vector.svg) no-repeat;
-  transform: scaleX(-1);
-} */
-
 .hero .row {
   display: flex;
   padding: 10rem 7%;
@@ -209,6 +198,27 @@ body {
   transform: scale(1.1);
 }
 /* Hero Section */
+
+/* Fasilitas Section */
+.facility {
+  /* display: block; */
+  /* padding: 8rem 7% 1.4rem; */
+  z-index: 4;
+  position: relative;
+  /* background: #68e28c; */
+}
+
+.facility .row h1 {
+  color: #0fb80c;
+}
+
+.facility .vec {
+  top: -100;
+  width: 100%;
+  transform: scale(-1, -1);
+}
+
+/* Fasilitas Section */
 
 /* Media Queries */
 /* Laptop */
